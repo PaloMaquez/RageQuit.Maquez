@@ -230,6 +230,10 @@ figcaption {
   width: 30px;
   height: 30px;
 }
+.tooltip-rev{
+  color: #BF5A62;
+  text-decoration: none;
+}
 
 /*-----NOSOTRAS-----*/
 
@@ -370,7 +374,7 @@ form .grupo {
   position: relative;
   background: #4bc0c8;
   right: 10%;
-  top: 10%;
+  top: 15%;
   animation: float 4s ease-in-out alternate infinite;
 }
 
@@ -382,8 +386,8 @@ form .grupo {
 
 .circle2 {
   background: #feac5e;
-  bottom: -10px;
-  right: 22%;
+  bottom: -38%;
+  right: 17%;
   animation: float 4s ease-in-out alternate infinite;
 }
 
@@ -661,3 +665,4 @@ button {
   letter-spacing: 0.05em;
   margin: 2em 0 0 0;
 }
+
