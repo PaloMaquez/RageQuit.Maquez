@@ -124,11 +124,12 @@ h4 {
   }
 }
 
-/*-----CONTAINER-----*/
+/*-----CONTAINER reviews-----*/
 
 .container {
   justify-content: center;
   align-items: center;
+  text-align: justify;
   top: auto;
   width: 80%;
   max-width: 850px;
@@ -229,10 +230,6 @@ figcaption {
 .icon {
   width: 30px;
   height: 30px;
-}
-.tooltip-rev{
-  color: #BF5A62;
-  text-decoration: none;
 }
 
 /*-----NOSOTRAS-----*/
@@ -582,7 +579,7 @@ button {
   }
 }
 
-/**/
+/*Noticias*/
 .ne__noticias {
   background-color: #fff;
 }
