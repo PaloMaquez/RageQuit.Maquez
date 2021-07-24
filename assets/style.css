@@ -512,12 +512,44 @@ button {
   form {
     width: 60%;
   }
+  h1{
+    font-size: 40px;
+  }
+  .rageQuit {
+    left: 0;
+    font-size: 40px;
+  }
+  .text-animation {
+    font-size: 11px;
+  }
+.foot-div{
+  font-size: 12px;
+}
+.menu{
+  display: block;
+}
 }
 
 @media screen and (max-width: 450px) {
   form {
     width: 80%;
   }
+  h1{
+    font-size: 50px;
+  }
+  .rageQuit {
+    left: 0;
+    font-size: 50px;
+  }
+  .text-animation {
+    font-size: 11px;
+  }
+.foot-div{
+  font-size: 12px;
+}
+.menu{
+  display: block;
+}
 }
 
 @media screen and (max-width: 300px) {
