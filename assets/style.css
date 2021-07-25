@@ -6,9 +6,9 @@ html {
   padding: 0;
   box-sizing: border-box;
 }
-.main {
+.main_paige {
   font-family: "Lora", cursive;
-  background-size: 50%;
+  background-size: 60%;
   background: #feac5e; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -22,9 +22,8 @@ html {
     #c779d0,
     #feac5e
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background-position: center;
+  background-position:center;
   object-fit: cover;
-  background-repeat: no-repeat;
   font-size: 1.2rem;
   line-height: 1.6em;
   margin: 0;
@@ -41,7 +40,7 @@ body {
 }
 h1 {
   font-family: "Abril Fatface", cursive;
-  font-size: 60px;
+  font-size: 70px;
   color: black;
   text-transform: none;
   font-weight: normal;
@@ -199,6 +198,22 @@ figcaption {
 }
 
 /*-----REVIEWS-----*/
+.rev__color{
+  background: #feac5e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #4bc0c8,
+    #c779d0,
+    #feac5e
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #4bc0c8,
+    #c779d0,
+    #feac5e
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-position:center;
+}
 .reviews__contain {
   display: flex;
   width: 100%;
@@ -217,7 +232,7 @@ figcaption {
   overflow: hidden;
   transition: 0.9s;
   margin: 0 2%;
-  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.185);
   line-height: 0;
 }
 .card:hover {
@@ -351,7 +366,7 @@ figcaption {
 
 .form {
   width: 100%;
-  top: 10%;
+  top: 10px;
   margin: 0;
 }
 
@@ -477,25 +492,24 @@ input:focus ~ .barra::before {
 
 button {
   font-family: "Lora";
-  background: #aa4b6b; /* fallback for old browsers */
+  background: #feac5e; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #3b8d99,
-    #6b6b83,
-    #aa4b6b
+    #4bc0c883,
+    #c779d0,
+    #feac5e
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #3b8d99,
-    #6b6b83,
-    #aa4b6b
+    #feac5e,
+    #c779d0,
+    #4bc0c883
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
   border: none;
   display: inline-block;
   width: 40%;
   margin: 10px auto;
-  margin-left: 20px;
+  margin-left: 55px;
   color: #fff;
   height: 40px;
   font-size: 16px;
@@ -505,6 +519,17 @@ button {
 @media screen and (max-width: 1100px) {
   form {
     width: 80%;
+  }
+  .button{
+    border: none;
+    display: inline-block;
+    width: 30%;
+    margin: 10px auto;
+    margin-left: 55px;
+    color: #fff;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
   }
 }
 
@@ -530,13 +555,24 @@ button {
 }
 .paper {
   position: absolute;
-  height: 500px;
-  width: 400px;
+  height: 480px;
+  width: 380px;
   background: rgba(255, 255, 255, 0.973);
   margin: -255px -215px;
   left: 50%;
   top: 50%;
-  box-shadow: 0px 0px 5px 0px rgb(105, 105, 105);
+  box-shadow: 0px 0px 5px 0px rgb(0, 0, 0);
+  font-size: 13px;
+}
+button {
+  display:block;
+  width: 20%;
+  position: center;
+  margin: 5px auto;
+}
+.circle2 {
+  bottom: -100%;
+  right: 60%;
 }
 }
 
@@ -574,7 +610,7 @@ button {
   background-color: #191919;
   position: relative;
   left: 0;
-  top: 0;
+  top: 10px;
   width: 100%;
 }
 .bottom a {
@@ -605,6 +641,9 @@ button {
 .foot-div ul li a:hover {
   background: rgba(205, 154, 235, 0.651);
 }
+.foot-div p{
+  color: #5f5c5c;
+}
 .foot-div li:hover ~ li p {
   animation: wave-animation 0.3s infinite;
 }
@@ -622,8 +661,20 @@ button {
 }
 
 /*Noticias*/
-.ne__noticias {
-  background-color: #fff;
+.noti_paige{
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  background: -webkit-linear-gradient(
+    to right,
+    #a6c1ee,
+    #fbc2eb,
+    #feac5e
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #feac5e,
+    #c779d0,
+    #4bc0c883
+  ); 
 }
 .band {
   width: 90%;
@@ -655,7 +706,7 @@ button {
 
 .cardd {
   min-height: 100%;
-  background: white;
+  background: rgba(255, 255, 255, 0.466);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
@@ -667,7 +718,7 @@ button {
 }
 
 .cardd:hover {
-  top: -2px;
+  top: -10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -688,6 +739,7 @@ button {
 .cardd p {
   flex: 1;
   line-height: 1.4;
+  color: #191919;
 }
 
 .cardd h1 {
@@ -699,7 +751,7 @@ button {
 .cardd span {
   font-size: 12px;
   font-weight: bold;
-  color: #999;
+  color: #1919198a;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   margin: 2em 0 0 0;
