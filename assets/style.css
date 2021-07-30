@@ -571,8 +571,10 @@ button {
   margin: 5px auto;
 }
 .circle2 {
-  bottom: -100%;
-  right: 60%;
+  background: #feac5e;
+  top: 100%;
+  right: 15%;
+  animation: float 4s ease-in-out alternate infinite;
 }
 }
 
