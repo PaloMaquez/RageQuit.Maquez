@@ -56,7 +56,7 @@ h2 {
   font-family: "Lora", cursive;
 }
 h3 {
-  font-family: "abril fatface", cursive;
+  font-family: "Abril fatface", cursive;
   font-size: 25px;
   color: black;
   text-transform: uppercase;
@@ -75,6 +75,7 @@ h4 {
   line-height: 2;
   text-align: center;
   margin: 0px 50px 0 50px;
+  margin-top: 30px;
 }
 
 /*----------INDEX----------*/
@@ -178,6 +179,7 @@ h4 {
 }
 .container img {
   width: 70%;
+  margin-top: 30px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -194,6 +196,7 @@ h4 {
 }
 .container video {
   width: 70%;
+  margin-top: 30px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -208,7 +211,20 @@ figcaption {
   color: #555;
   font-size: 13px;
   text-align: center;
+  margin-bottom: 30px;
 }  
+p {
+  white-space:pre-line;
+  line-height: 20pt;
+}
+iframe {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.icon{
+  height: 25px;
+  text-align: center
+}
 
 /*----------REVIEWS----------*/
 
@@ -258,10 +274,6 @@ figcaption {
   width: 100%;
   height: 100%;
 }
-.icon{
-  height: 25px;
-  margin-left: 10
-}
 .img-fluid{
   height: 93vh;
   min-height: 400px;
@@ -269,6 +281,7 @@ figcaption {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  margin-bottom: 30px;
 }
 .img-fluid h1 {
   color: #fff;
@@ -282,6 +295,7 @@ figcaption {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  margin-bottom: 30px;
 }
 .img-fluid3{
   height: 92vh;
@@ -290,6 +304,7 @@ figcaption {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  margin-bottom: 30px;
 }
 .img-fluid4{
   height: 92vh;
@@ -298,6 +313,7 @@ figcaption {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  margin-bottom: 30px;
 }
 .img-fluid5{
   height: 92vh;
@@ -306,6 +322,7 @@ figcaption {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  margin-bottom: 30px;
 }
 .img-fluid6{
   height: 96vh;
@@ -314,6 +331,7 @@ figcaption {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  margin-bottom: 30px;
 }
 .img-fluid7{
   height: 92vh;
@@ -322,6 +340,7 @@ figcaption {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  margin-bottom: 30px;
 }
 .img-fluid8{
   height: 92vh;
@@ -330,6 +349,7 @@ figcaption {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  margin-bottom: 30px;
 }
 
 /*----------NOTICIAS----------*/
@@ -438,9 +458,22 @@ figcaption {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.text > h4 {
-  margin-left: 10px;
+.text {
+  position:absolute;
+  top: 65px;
+  left: 55px;
+  bottom: 10px;
+  right: 10px;
+  line-height: 25px;
+  font-family: "Indie Flower";
+  overflow: hidden;
+  outline: none;
 }
+.text h3 {
+  margin-left: 10px;
+  margin-top: 14px;
+}
+
 .paper {
   position: absolute;
   height: 550px;
@@ -468,17 +501,6 @@ figcaption {
   white 24px,
   steelblue 25px
   );
-}
-.text {
-  position: absolute;
-  top: 65px;
-  left: 55px;
-  bottom: 10px;
-  right: 10px;
-  line-height: 25px;
-  font-family: "Indie Flower";
-  overflow: hidden;
-  outline: none;
 }
 .holes {
   position: absolute;
@@ -602,12 +624,13 @@ textarea {
   width: 100%;
   border: none;
   border-bottom: 1px solid #1919193a;
+  resize: none;
 }
 
 input:focus,
 textarea:focus {
   outline: none;
-  color: rgb(94, 93, 93);
+  color: rgb(46, 46, 46);
 }
 input:focus ~ label,
 input:valid ~ label,
