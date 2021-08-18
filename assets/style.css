@@ -569,12 +569,12 @@ iframe {
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   border-left: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 100px;
-  border-radius: 12px;
   border-right: 1px solid rgba(255, 255, 255, 0.3);
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.123);
   box-shadow: 0 26px 42px rgba(0, 0, 0, 0.1);
   box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+
   padding: 10px 0;
   transform: translatey(0px);
 }
@@ -641,46 +641,45 @@ form .grupo {
 input,
 textarea {
   background: none;
-  border-bottom: 1px solid #1919193a;
   border: none;
+  border-bottom: 1px solid #1919193a;
   color: #000000;
   display: block;
   font-size: 18px;
   padding: 10px 10px 10px 5px;
-  resize: none;
   width: 100%;
 }
 
 input:focus,
 textarea:focus {
-  color: rgb(46, 46, 46);
   outline: none;
+  color: rgb(94, 93, 93);
 }
 input:focus ~ label,
 input:valid ~ label,
 textarea:focus ~ label,
 textarea:valid ~ label {
-  color: #2196f3;
-  font-size: 12px;
   position: absolute;
   top: -14px;
+  font-size: 12px;
+  color: #2196f3;
 }
 
 label {
   color: black;
   font-size: 16px;
-  left: 5px;
-  pointer-events: none;
   position: absolute;
+  left: 5px;
   top: 10px;
   transition: 0s ease all;
+  pointer-events: none;
 }
 
 input:focus ~ label,
 input:valid ~ label {
-  color: #2196f3;
-  font-size: 12px;
   top: -14px;
+  font-size: 12px;
+  color: #2196f3;
 }
 input:focus ~ .barra::before,
 textarea:focus ~ .barra::before {
@@ -688,32 +687,32 @@ textarea:focus ~ .barra::before {
 }
 
 .barra {
-  display: block;
   position: relative;
+  display: block;
   width: 100%;
 }
 
 .barra::before {
-  background: #feac5e; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-  to right,
-  #feac5e,
-  #c779d0,
-  #4bc0c8
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-  to right,
-  #4bc0c8,
-  #c779d0,
-  #feac5e
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  bottom: 0;
   content: "";
   height: 2px;
-  left: 0;
-  position: absolute;
-  transition: 0.8s ease width;
   width: 0%;
+  bottom: 0;
+  position: absolute;
+  background: #feac5e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #feac5e,
+    #c779d0,
+    #4bc0c8
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #4bc0c8,
+    #c779d0,
+    #feac5e
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  transition: 0.8s ease width;
+  left: 0;
 }
 
 input:focus ~ .barra::before {
@@ -721,29 +720,29 @@ input:focus ~ .barra::before {
 }
 
 button {
+  font-family: "Lora";
   background: #feac5e; /* fallback for old browsers */
   background: -webkit-linear-gradient(
-  to right,
-  #4bc0c883,
-  #c779d0,
-  #feac5e
+    to right,
+    #4bc0c883,
+    #c779d0,
+    #feac5e
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
-  to right,
-  #feac5e,
-  #c779d0,
-  #4bc0c883
+    to right,
+    #feac5e,
+    #c779d0,
+    #4bc0c883
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   border: none;
-  color: #fff;
-  cursor: pointer;
   display: inline-block;
-  font-family: "Lora";
-  font-size: 16px;
-  height: 40px;
-  margin-left: 55px;
-  margin: 10px auto;
   width: 40%;
+  margin: 10px auto;
+  margin-left: 55px;
+  color: #fff;
+  height: 40px;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 /*----------FOOTER----------*/
@@ -849,8 +848,10 @@ button {
   button{
     margin-left: 40px;
   }
+}
+
 /*----------------------------------*/
-  }
+
   @media screen and (max-width: 600px) 
   {
   /*---HOME---*/
@@ -878,8 +879,7 @@ button {
     font-size: 17px;
   }
   /*---REVIEWS---*/
-  /* .card{
-  } */
+
   /*----CONTACTO---*/
   .circle2 {
     background: #feac5e;
@@ -914,31 +914,79 @@ button {
     white-space:pre-line;
     font-size: 12.5px;
   }
-/*---FOOTER---*/
-.foot-div{
+  /*---FOOTER---*/
+  .foot-div{
   font-size: 15px;
   }
+}
+
 /*----------------------------------*/
+
   @media screen and (max-width: 450px)
   {
+    h1{
+      font-size: 50px;
+    }
+    /*---HOME---*/
+    .main_img{
+      position: absolute;
+      width: 165%;
+      right: -30%;
+      top: 25%;
+    }
+    .rageQuit {
+      left: 0;
+      top: 0;
+      font-size: 55px;
+    }
+    .text-animation{
+      font-size: 170%;
+      left: 50%
+    }
+    .text-animation {
+      animation: typewriter 3s steps(22) 1s normal both,
+      blinkCursor 700ms steps(22) infinite normal;
+    }
+    /*---MENU---*/
+    .menu{
+      display: block;
+      }
+      /*---REVIEWS---*/
+    .img-fluid,
+    .img-fluid2,
+    .img-fluid3,
+    .img-fluid4,
+    .img-fluid5,
+    .img-fluid6,
+    .img-fluid7,
+    .img-fluid8{
+    width: 450px;
+    height: 90vh;
+    min-height: 400px;
+    background-size: cover;
+  }
+  .splash-arrow-img{
+    margin-top: 90%;
+  }
+  .splash-arrow-img2{
+    margin-top: 130%;
+  }
+  h4{
+    font-size: 20px;
+  }
+  /*---CONTACTO*/
   form {
-    width: 80%;
+    width: 100%;
   }
-  h1{
-    font-size: 50px;
+  button{
+    margin-left: 35%;
   }
-  .rageQuit {
-    left: 0;
-    font-size: 50px;
-  }
-  .text-animation {
-    font-size: 11px;
+  /*---FOOTER---*/
+  .bottom{
+    top: 140px;
   }
   .foot-div{
-  font-size: 12px;
-  }
-  .menu{
-  display: block;
+  font-size: 13px;
   }
   }
 /*----------------------------------*/
@@ -946,6 +994,5 @@ button {
   {
   form {
     width: 90%;
-  }
   }
   }
