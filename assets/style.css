@@ -648,12 +648,13 @@ textarea {
   font-size: 18px;
   padding: 10px 10px 10px 5px;
   width: 100%;
+  resize: none;
 }
 
 input:focus,
 textarea:focus {
   outline: none;
-  color: rgb(94, 93, 93);
+  color: rgb(51, 50, 50);
 }
 input:focus ~ label,
 input:valid ~ label,
@@ -882,10 +883,8 @@ button {
 
   /*----CONTACTO---*/
   .circle2 {
-    background: #feac5e;
     top: 100%;
     right: 5%;
-    animation: float 4s ease-in-out alternate infinite;
     }
   .form {
     width: 96%;
@@ -934,27 +933,28 @@ button {
     /*---HOME---*/
     .main_img{
       position: absolute;
-      width: 165%;
-      right: -30%;
-      top: 25%;
+      width: 200%;
+      right: -50%;
+      top: 35%;
     }
     .rageQuit {
       left: 0;
-      top: 0;
-      font-size: 55px;
+      top: 8%;
+      font-size: 60px;
     }
     .text-animation{
       font-size: 170%;
-      left: 50%
+      left: 50%;
+      top: 85%;
     }
     .text-animation {
       animation: typewriter 3s steps(22) 1s normal both,
       blinkCursor 700ms steps(22) infinite normal;
     }
     /*---MENU---*/
-    .menu{
+    /* .menu{
       display: block;
-      }
+      } */
       /*---REVIEWS---*/
     .img-fluid,
     .img-fluid2,
@@ -985,6 +985,10 @@ button {
   button{
     margin-left: 35%;
   }
+  .circle2 {
+    top: 75%;
+    right: 5%;
+    }
   /*---FOOTER---*/
   .bottom{
     top: 400px;
