@@ -654,7 +654,7 @@ textarea {
 input:focus,
 textarea:focus {
   outline: none;
-  color: rgb(51, 50, 50);
+  color: rgb(94, 93, 93);
 }
 input:focus ~ label,
 input:valid ~ label,
@@ -986,7 +986,7 @@ button {
     margin-left: 35%;
   }
   .circle2 {
-    top: 75%;
+    top: 95%;
     right: 5%;
     }
   /*---FOOTER---*/
@@ -1001,6 +1001,61 @@ button {
 /*----------------------------------*/
   @media screen and (max-width: 300px) 
   {
+  /*---HOME---*/
+  .main_img{
+    position: absolute;
+    width: 200%;
+    right: -50%;
+    top: 35%;
+  }
+  .rageQuit {
+    left: 0;
+    top: 8%;
+    font-size: 40px;
+  }
+  .text-animation{
+    font-size: 120%;
+    left: 50%;
+    top: 75%;
+  }
+  /*---REVIEWS---*/
+  .splash-arrow-img2{
+    margin-top: 190%;
+  }
+  .container{
+    width: 55%;
+    align-self: center;
+  }
+  .container p{
+    font-size: 15px;
+  }
+  figcaption{
+    font-size: 10px;
+  }
+  .container img {
+    width: 105%;
+  }
+  .container video {
+    width: 100%;
+  }
+  /*---NOSOTRAS---*/
+  .paper {
+    position: absolute;
+    height: 480px;
+    width: 290px;
+    margin: -255px -215px;
+    left: 71.4%;
+    top: 55%;
+    font-size: 13px;
+    }
+    .text p {
+      font-size: 10px;
+    }
+    .text h3 {
+      font-size: 20px;
+      margin-top: -5px;
+    }
+  /*---CONTACTO---*/
   form {
     width: 90%;
   }
