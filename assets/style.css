@@ -805,7 +805,7 @@ button {
 
 /*----------MEDIA QUERIES----------*/
 
-@media screen and (max-width: 1100px) 
+@media screen and (max-width: 1200px) 
 {
   /*---HOME---*/
   .rageQuit{
@@ -999,7 +999,7 @@ button {
   }
   }
 /*----------------------------------*/
-  @media screen and (max-width: 300px) 
+  @media screen and (max-width: 390px) 
   {
   /*---HOME---*/
   .main_img{
@@ -1057,6 +1057,22 @@ button {
     }
   /*---CONTACTO---*/
   form {
-    width: 90%;
+    width: 155%;
+    margin: -50px;
   }
+  form h1{
+    font-size: 40px;
+  }
+  button{
+    margin-left: 35%;
+  }
+  .circle1{
+    margin-top: 50%;
+    bottom: 90%;
+    right: 35%;
+  }
+  .circle2 {
+    top: 95%;
+    right: 3%;
+    }
   }
