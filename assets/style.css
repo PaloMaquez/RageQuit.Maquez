@@ -25,6 +25,7 @@ html {
   #c779d0,
   #feac5e
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-repeat: no-repeat;
   background-position:center;
   font-size: 1.2rem;
   line-height: 1.6em;
@@ -97,7 +98,7 @@ h4 {
 .text-animation {
   border-right: 3.5px solid black;
   font-size: 180%;
-  left: 85%;
+  left: 86%;
   overflow: hidden;
   position: absolute;
   top: 70%;
@@ -147,6 +148,7 @@ h4 {
   display: flex;
   font-size: 1em;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .navegacion ul {
   list-style: none;
@@ -236,7 +238,6 @@ iframe {
 }
 .icon{
   height: 25px;
-  text-align: center
 }
 
 /*----------REVIEWS----------*/
@@ -450,15 +451,21 @@ iframe {
 }
 
 .cardd p {
+  font-size: 15px;
   color: #191919;
   flex: 1;
-  line-height: 1.4;
+  line-height: 1.3;
+  text-align: justify;
+  align-items: center;
+  justify-content: center;
 }
 
 .cardd h2 {
   color: #333;
-  font-size: 18px;
+  font-size: 16px;
   margin: 0;
+  align-items: center;
+  justify-content: center;
 }
 
 .cardd span {
@@ -754,6 +761,7 @@ button {
   position: relative;
   top: 10px;
   width: 100%;
+  margin-top: 10px;
 }
 .bottom a {
   color: white;
@@ -821,6 +829,9 @@ button {
     blinkCursor 700ms steps(22) infinite normal;
   }
   /*---REVIEWS---*/
+  .rev__color{
+    background-repeat:repeat;
+}
   .img-fluid,
   .img-fluid2,
   .img-fluid3,
@@ -850,7 +861,20 @@ button {
     margin-left: 40px;
   }
 }
-
+@media screen and (max-width:550px){
+  .logo-nav-container {
+    font-size: 1em;
+  }
+  .logo{
+    display: none;
+  }
+  .logo-nav-container {
+    justify-content: center;
+  }
+  .rev__color{
+    background-repeat:repeat;
+}
+}
 /*----------------------------------*/
 
   @media screen and (max-width: 600px) 
@@ -876,11 +900,13 @@ button {
     blinkCursor 700ms steps(22) infinite normal;
   }
   /*---MENU---*/
-    .logo-nav-container {
-    font-size: 17px;
+  .logo-nav-container {
+    font-size: 0.8em;
+  }
+  .navegacion ul {
+    margin: 13px;
   }
   /*---REVIEWS---*/
-
   /*----CONTACTO---*/
   .circle2 {
     top: 100%;
@@ -947,15 +973,18 @@ button {
       left: 50%;
       top: 85%;
     }
-    .text-animation {
-      animation: typewriter 3s steps(22) 1s normal both,
-      blinkCursor 700ms steps(22) infinite normal;
+  /*---MENU---*/
+    .logo-nav-container {
+      font-size: 0.7em;
     }
-    /*---MENU---*/
-    /* .menu{
-      display: block;
-      } */
-      /*---REVIEWS---*/
+    .navegacion ul {
+      margin: 5px;
+      margin-top: 35px;
+    }
+    .logo{
+      display: none;
+    }
+    /*---REVIEWS---*/
     .img-fluid,
     .img-fluid2,
     .img-fluid3,
@@ -1017,6 +1046,13 @@ button {
     font-size: 120%;
     left: 50%;
     top: 75%;
+  }
+  /*---MENU---*/
+  .logo-nav-container {
+    font-size: 0.4em;
+  }
+  .navegacion ul {
+    margin-right: 0;
   }
   /*---REVIEWS---*/
   .splash-arrow-img2{
