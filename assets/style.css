@@ -25,7 +25,6 @@ html {
   #c779d0,
   #feac5e
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background-repeat: no-repeat;
   background-position:center;
   font-size: 1.2rem;
   line-height: 1.6em;
@@ -226,7 +225,7 @@ iframe {
 }
 .splash-arrow-img {
   cursor: pointer;
-  margin-top: 30%;
+  margin-top: 35%;
   position:absolute;
   width: 30px;
 }
@@ -291,7 +290,7 @@ iframe {
 .img-fluid{
   height: 93vh;
   min-height: 400px;
-  background-image: url('https://www.ioi.dk/wp-content/uploads/2020/06/HITMAN3_Article_Header_NoLogo-1.jpg');
+  background-image: url('https://image.api.playstation.com/vulcan/img/rnd/202011/0409/9kmtBsDqE5N8DSCw8aYadjVW.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -339,9 +338,9 @@ iframe {
   margin-bottom: 30px;
 }
 .img-fluid6{
-  height: 96vh;
+  height: 92vh;
   min-height: 400px;
-  background-image: url('../img/WatchDogsLeg/WatchDogsLeg.png');
+  background-image: url('../img/WatchDogsLeg/watchDogs__banner.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
