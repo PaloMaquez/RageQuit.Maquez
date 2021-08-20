@@ -492,8 +492,9 @@ iframe {
   margin-top: -11px;
 }
 .text p {
-  margin-top: -9px;
-  white-space:pre-line;
+  font-size: 19.5px;
+  margin-top: -11.5px;
+  line-height:25px;
 }
 .paper {
   background: rgba(255, 255, 255, 0.973);
