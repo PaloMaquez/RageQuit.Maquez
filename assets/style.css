@@ -88,11 +88,11 @@ h4 {
   font-family: "Abril Fatface" cursive;
   font-size: 5vw;
   left: 5%;
-  /* position: absolute; */
+  position: absolute;
   top: 10%;
 }
 .main{
-  height: 87vh;
+  height: 100vh;
 }
 .main_img-container {
   /* margin-top: 210px; */
@@ -993,6 +993,7 @@ button {
       font-size: 60px;
       position: inherit;
       padding-top: 20px;
+      text-align: center;
     }
     .text-animation{
       font-size: 170%;
