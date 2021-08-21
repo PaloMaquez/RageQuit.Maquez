@@ -33,7 +33,7 @@ html {
 }
 body {
   background: white;
-  display: grid;
+  /* display: grid; */
   font-family: "Lora", "Times";
   font-size: 1.1rem;
   line-height: 1.4em;
@@ -48,8 +48,8 @@ h1 {
   font-weight: normal;
   line-height: 1;
   margin: 0px 50px 0 50px;
-  padding-top: 130px;
-  text-align: center;
+  padding-top: 50px;
+  text-align: left;
   text-transform: none;
 }
 h2 {
@@ -88,7 +88,7 @@ h4 {
   font-family: "Abril Fatface" cursive;
   font-size: 5vw;
   left: 5%;
-  position: absolute;
+  /* position: absolute; */
   top: 10%;
 }
 .main{
@@ -869,6 +869,7 @@ button {
     top: 62vw;
     left: 72%;
 }
+}
 @media screen and (max-width: 768px){
   .text-animation {
     top: 100vw;
@@ -1066,12 +1067,6 @@ button {
   /*---HOME---*/
   .main{
     height: 85vh;
-  }
-  .main_img-container{
-    /* position: absolute;
-    width: 200%;
-    right: -50%;
-    top: 35%; */
   }
   .main_img{
     width: 60%!important;
